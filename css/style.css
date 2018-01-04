@@ -1,0 +1,409 @@
+
+/* ---------------------------------------------------------------------------- */
+/* ----------------------------------Carousel---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.owl-controls .owl-buttons div {
+	position: absolute;
+	color:#777;
+	opacity: 0.7;
+}
+.owl-carousel:hover .owl-buttons div {
+	color:#fff;
+}
+.owl-controls .owl-buttons .owl-prev {
+	left: 10px;
+	top: 50%;
+}
+.owl-controls .owl-buttons .owl-next {
+	right: 10px;
+	top: 50%;
+}
+.owl-carousel{
+	margin-bottom: 20px;
+}
+.owl-carousel .owl-buttons div i {
+	font-size: 40px;
+	margin: -20px 0 0;
+}
+.owl-wrapper .item img{
+        width: 100%;
+    }
+
+body {
+	font-family: open sans;
+	background-color: #252527;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	max-width:1350px;
+	width: 100%;
+	margin: 0 auto; 	 
+}
+nav ul {
+	text-align: right;
+}
+nav ul li {
+	padding: 17px 19px;
+	display: inline-block;
+	
+}
+nav ul li a {
+	color: white;
+	display: block;
+	font-weight: bold;
+	font-family: open sans;
+}
+#menu {
+	display: none;
+	margin-top: 20px;
+
+}
+nav ul li:hover,nav ul li.focus{
+	background-color: #f44336;
+	-webkit-transition: all .25s ease-in-out;
+	   -moz-transition: all .25s ease-in-out;
+	    -ms-transition: all .25s ease-in-out;
+	     -o-transition: all .25s ease-in-out;
+	        transition: all .25s ease-in-out;
+}
+.back-white {
+	background-color: white;
+	padding: 1%;
+	padding-top: 20px;
+}
+#logo {
+	width: 50%;
+	display: inline-block;
+}
+.search {
+	width: 49%;
+	text-align: right;
+	display: inline-block;
+}
+input {
+	border:1px solid #444444;
+	width: 260px;
+	height: 42px;
+	padding-left: 10px;
+	box-sizing: border-box; 
+}
+.col-1-4 {
+	float: left;
+	width: 25%;
+}
+.col-1-4 img {
+	height: 100%;
+	width: 100%;
+
+}
+.images {
+	position: relative;
+}
+.caption {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	background-color: rgba(0, 0, 0, 0.4);
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	
+}
+.category {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	color: white;
+
+}
+.images:hover .caption {
+	opacity:1;
+	cursor: pointer;
+}
+.full {
+	margin-top: 27px;
+	text-align: center;
+
+	
+}
+.full h1 {
+	font-size: 40px;
+
+}
+.blog-1 {
+	width: 24%;
+	margin-right: 1%;
+	float: left;
+}
+.blog-1 img {
+	width: 100%;
+}
+.blog-1:last-child {
+	margin-right: 0;
+}
+.more {
+	margin-top: 25px;
+	text-align: center;
+}
+.more h4 {
+	font-size: 20px;
+}
+.more p {
+	color: #7b7b7b;
+	font-size: 20px;
+}
+.more span,.latest-button {
+	width: 	107px;
+	height: 43px;
+	background-color:#f44336;
+	 display: block;
+	 color: white;
+	 text-align: center;
+	 display: inline-block;
+	 line-height: 43px;
+	 border-radius: 17px;
+	 margin-bottom: 55px;
+	 margin-top: 35px;
+}
+.latest-left {
+	width: 66%;
+	margin-top: 20px;
+	border-bottom: 1px solid #ccc;
+	margin-right: 1%;
+	float: left;
+}
+.latest-left h1 {
+	font-size: 45px;
+	margin-bottom: 32px;
+}
+.latest-left h6 {
+	font-size: 26px;
+}
+.latest-left p {
+	font-size: 18px;
+	color: #7b7b7b;
+	font-weight: bold;
+	margin-top: 13px;
+}
+.latest-left strong {
+	color: red;
+}
+.latest-right {
+	width: 33%;
+	float: right;
+}
+.latest-left p.para {
+	font-size: 17px;
+	color: #7b7b7b;
+	line-height: 27px;
+	font-weight: bold;
+}
+.latest-right h3 {
+	font-size: 25px;
+	margin-bottom: 41px;
+}
+.latest-right p {
+	font-size: 18px;
+	margin-bottom: 35px;
+	color: #7b7b7b;
+}
+h3.comment {
+	margin-top: 117px;
+}
+.foot-1 {
+	width: 30%;
+	margin: 37px 0;	
+	margin-right: 5%;
+	float: left;
+	color: white;
+}
+.foot-1:last-child {
+	margin-right: 0;
+}
+.foot-1 p {
+	font-size: 17px;
+}
+.foot-1 ul {
+	text-align: center;
+}
+.foot-1 ul li {
+	margin-right: 10px;
+	display: inline-block;
+}
+.foot-1 ul li i {
+	width: 40px;
+	height: 40px;
+	background-color: #f44336;
+	line-height: 40px;
+	border-radius: 20px;
+}
+.foot-last {
+	text-decoration: underline;
+	text-align: right;
+}
+
+/* Style the Image Used to Trigger the Modal */
+#myImg,#myImg1,#myImg2,#myI
+mg3{
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover,#myImg1:hover,#myImg2:hover,#myImg3:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+
+
+
+@media only screen and (max-width: 786px) {
+	body {
+		padding: 3%;
+	}
+	
+	#menu {
+		display: block;
+		position: absolute;
+		right: 40px;
+	}
+	.search {
+		width: 100%;
+		text-align: left;
+		margin:20px 0; 
+	}
+	nav {
+		position: absolute;
+		top: 100px;
+		right: 40px;
+		z-index: 1;
+		padding: 12px 0;
+		width: 50%;
+
+		background-color: black;
+	}
+	nav ul li {
+		text-align: center;
+		width: 100%;
+		
+	}
+	 nav ul li a:hover {
+	 	background-color: black;
+	 	height: 39px;
+	 	transition: all 0.1s linear;
+	 	line-height: 39px;
+	 }
+	.col-1-4{
+		width: 50%;
+	}
+	
+	.blog {
+		width: 100%;
+		text-align: center;
+	}
+	.full {
+		margin-bottom: 90px;
+	}	
+	.blog-1 {
+		width: 100%;
+	}
+	.blog-1 img {
+		width: 50%;
+	}
+	
+	.latest-left {
+		width: 100%;
+		line-height: 40px;
+		text-align: center;
+	}
+	.latest-right {
+		text-align: center;
+		width: 100%;
+		margin-top: 110px;
+	}
+	.foot-1 {
+		width: 100%;
+		text-align: center;
+	}
+	.foot-last {
+		text-align: center;
+	} 
+		
+		
+}
